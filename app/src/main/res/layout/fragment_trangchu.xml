@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="vn.com.namhenry.box_box_music.Activity.Fragment.fragment_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragmentplaylist"
+            android:name="vn.com.namhenry.box_box_music.Activity.Fragment.fragment_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentchudetheloai"
+            android:name="vn.com.namhenry.box_box_music.Activity.Fragment.fragment_chude_theloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentalbumhot"
+            android:name="vn.com.namhenry.box_box_music.Activity.Fragment.fragment_album_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentbaihathot"
+            android:name="vn.com.namhenry.box_box_music.Activity.Fragment.Fragment_Bai_Hat_Hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
